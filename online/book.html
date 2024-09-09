@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>book</title>
+
+      <!--swiper css link-->
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+      <!-- Font Awesome CDN link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+      <!-- custom css file link -->
+      <link rel="stylesheet" href="style.css"
+
+
+</head>
+<body>
+      <!--header section starts-->
+      <section class="header">
+      <a href="home.html" class="logo">TᖇᗩᐯEᒪ TO Ṡṛï Ḷäṅḳä</a>
+
+      <nav class="navbar">
+              <a href="home.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="package.html">Packages</a>
+              <a href="book.html">Booking</a>
+              <a href="login.html">Login</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      </section>
+
+      <!--header section ends-->
+
+
+<div class="hedding" style="background: url(photos/book1.jpg) no-repeat">
+      <h1>Booking</h1>
+</div>
+
+
+<!--booking section starts-->
+
+<section class="booking">
+      <h1 class="heading-title">Book Your Trip</h1>
+
+      <form action="book.html" method="post" class="book-form" onsubmit="return validateForm()">
+          <div class="flex">
+              <div class="inputBox">
+                  <span>Name :</span>
+                  <input type="text" placeholder="Enter your name" name="name" id="name">
+                  <span class="error" id="nameError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Email :</span>
+                  <input type="email" placeholder="Enter your email" name="email" id="email">
+                  <span class="error" id="emailError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Phone :</span>
+                  <input type="number" placeholder="Enter your number" name="phone" id="phone">
+                  <span class="error" id="phoneError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Address :</span>
+                  <input type="text" placeholder="Enter your address" name="address" id="address">
+                  <span class="error" id="addressError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>NIC :</span>
+                  <input type="number" placeholder="Enter your id number" name="id" id="nic">
+                  <span class="error" id="nicError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Where to :</span>
+                  <input type="text" placeholder="Enter your visit place" name="location" id="location">
+                  <span class="error" id="locationError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>How many :</span>
+                  <input type="number" placeholder="Enter your guests" name="guests" id="guests">
+                  <span class="error" id="guestsError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Arrivals :</span>
+                  <input type="date" name="arrivals" id="arrivals">
+                  <span class="error" id="arrivalsError"></span>
+              </div>
+
+              <div class="inputBox">
+                  <span>Leaving :</span>
+                  <input type="date" name="leaving" id="leaving">
+                  <span class="error" id="leavingError"></span>
+              </div>
+          </div>
+
+          <input type="submit" value="Submit" class="btn" name="send">
+      </form>
+  </section>
+
+  <script type="text/javascript" src="script.js" defer></script>
+
+</body>
+</html>
+
+
+
+<!--booking section endss-->
+
+
+
+
+
+
+
+
+
+<!--footer section starts-->
+<section class="footer">
+      <div class="box-container">
+            <div class="box">
+                  <h3>quick links</h3>
+                  <a href="home.html"><i class="fas fa-angle-right"></i> Home</a>
+                  <a href="about.html"><i class="fas fa-angle-right"></i> About</a>
+                  <a href="package.html"><i class="fas fa-angle-right"></i> Packages</a>
+                  <a href="book.html"><i class="fas fa-angle-right"></i> Booking</a>
+                  <a href="login.html"><i class="fas fa-angle-right"></i> Login</a>
+            </div>
+
+            <div class="box">
+                  <h3>quick links</h3>
+                  <a href="#"><i class="fas fa-angle-right"></i> Ask questions</a>
+                  <a href="#"><i class="fas fa-angle-right"></i> About us</a>
+                  <a href="#"><i class="fas fa-angle-right"></i> Privacy policy</a>
+                  <a href="#"><i class="fas fa-angle-right"></i> Terms of use</a>
+            </div>
+
+            <div class="box">
+                  <h3>Contact information</h3>
+                  <a href="#"><i class="fas fa-phone"></i> +94-75-757-7050</a>
+                  <a href="#"><i class="fas fa-phone"></i> +94-45-800-9000</a>
+                  <a href="#"><i class="fas fa-envelope"></i> nimeshm@gmail.com</a>
+                  <a href="#"><i class="fas fa-angle-map"></i> colombo,sri lanka-65904</a>
+            </div>
+
+            <div class="box">
+                  <h3>Follow us</h3>
+                  <a href="#"><i class="fab fa-facebook-square"></i>facebook</a>
+                  <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+                  <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                  <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+            </div>
+      </div>
+
+      <div class="credit">Created by <span>Mr.Nimesh Manusha</span> | all rights reserved! </div>
+
+</section>
+
+
+
+<!--footer section ends -->
+
+
+
+<!-- swiper js link -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <!-- custom js file link -->
+ <script src="script.js"></script>
+</body>
+</html>
+
+<!-- custom js file link -->
+ <script src="script.js"></script>
+</body>
+</html>
